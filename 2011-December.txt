@@ -1,0 +1,35 @@
+From charles.goodwin at gmail.com  Wed Dec 14 19:15:53 2011
+From: charles.goodwin at gmail.com (Charlie)
+Date: Wed, 14 Dec 2011 18:15:53 +0000
+Subject: [Railz-interest] Error running Launcher
+Message-ID: <CAHoWdVxQg3QAcLRc3UQHSeahwX7AZ0yNhZvkn1_+V7-hCkyXDQ@mail.gmail.com>
+
+I grabbed 0.3.3 and when running it (set up in Eclipse) it throws this
+exception when starting a new single player game.
+
+ - Charlie
+
+Exception in thread "AWT-EventQueue-1" java.lang.NullPointerException
+    at
+org.railz.client.view.StationPlacementCursor.<init>(StationPlacementCursor.java:129)
+    at
+org.railz.client.view.MapViewJComponentConcrete.setup(MapViewJComponentConcrete.java:351)
+    at org.railz.client.top.ClientJFrame$1.run(ClientJFrame.java:92)
+    at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/railz-interest/attachments/20111214/dea6f0cd/attachment.html>
+
+From charles at webenableit.com  Wed Dec 14 19:20:01 2011
+From: charles at webenableit.com (Charles Goodwin)
+Date: Wed, 14 Dec 2011 18:20:01 +0000
+Subject: [Railz-interest] Berlios shutting down
+Message-ID: <CAHoWdVwi-QDuCPQkO9FVhwhiyqXOs_fNrhAR6Oj-8t+gY-f1zQ@mail.gmail.com>
+
+Any plans to move the project to e.g. github or bitbucket or google code?
+
+ - Charlie
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/railz-interest/attachments/20111214/254e29ce/attachment.html>
+
